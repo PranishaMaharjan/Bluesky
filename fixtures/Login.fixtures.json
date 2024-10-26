@@ -1,0 +1,33 @@
+{
+  "validUser": {
+    "username": "pranisha.bsky.social",
+    "password": "password123"
+  },
+
+  "invalidUser": {
+    "invalidCredentials": {
+      "username": "a.bsky.social",
+      "password": "incorrectPassword"
+    },
+
+    "invalidUsername": {
+      "username": "pranisha.bsky.social",
+      "password": "password123"
+    },
+
+    "invalidPassword": {
+      "username": "pranisha.bsky.social",
+      "password": "incorrectPassword"
+    },
+
+    "userLeadingSpace": {
+      "username": "    pranisha.bsky.social",
+      "password": "password123"
+    },
+
+    "passwordLeadingSpace": {
+      "username": "pranisha.bsky.social",
+      "password": "    password123"
+    }
+  }
+}
